@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Guessing game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+  .center {
+  margin: 10px auto;
+  width: 50%;
+  border: 3px solid #e0d6ce;
+  padding: 10px;
+  text-align: center;
+}
+    </style>
+  </head>
+
+  <body class='center'>
+    <h1>Number Guessing Game</h1>
+    <p>We have selected a random number between 1 and 10. <br>
+       Guess the correct number to win this Pastry.</p>
+    <img src="./images/pasteis.jpg" alt="pastry" width=50 height=50>
+
+    <form action="#">
+      <label for="userGuess">Enter a guess:</label>
+      <input type="number" id='userGuess' name='userGuess'>
+    <button value='submitGuessButton'>Play</button>
+    </form>
+
+    <section id='message'>
+<div id='message'></div>
+    </section>
+    
+    <script src="./script.js" async defer></script>
+  </body>
+</html>
